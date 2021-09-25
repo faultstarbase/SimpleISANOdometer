@@ -12,8 +12,8 @@
 
 ## Setup
 
-1. Deploy the **text panel** and name it `Odometer`
-1. Deploy the **hybrid button** with the following field settings:
+* Deploy the **text panel** and name it `Odometer`
+* Deploy the **hybrid button** with the following field settings:
 
 | Name | Value |
 | --- | --- |
@@ -22,12 +22,12 @@
 | `ButtonOffStateValue` | 1 |
 | `ButtonStyle` | 0 |
 
-1. Deploy your chosen memory device(s) that provide 3 device fields, and name them:
+* Deploy your chosen memory device(s) to provide 3 device fields and name them:
   * `LOdo`
   * `TOdo`
   * `r`
-1. Copy/paste the [YOLOL code](./odometer.yolol) into the **basic YOLOL chip** and deploy it
-1. Add `:r=ss` to [line 16 of the ISAN YOLOL](https://github.com/Collective-SB/ISAN/blob/master/bundles/basic/ISAN-basic_bundle.yolol#L16), immediately *before* `gotox`. Or, you may just copy/paste this entire replacement line into line 16 (works with ISAN **v2.5.3**, the current version as of this writing):
+* Copy/paste the [YOLOL code](./odometer.yolol) into the **basic YOLOL chip** and deploy it
+* Add `:r=ss` to [line 16 of the ISAN YOLOL](https://github.com/Collective-SB/ISAN/blob/master/bundles/basic/ISAN-basic_bundle.yolol#L16), immediately *before* `gotox`. Or, you may just copy/paste this entire replacement line into line 16 (works with ISAN **v2.5.3**, the current version as of this writing):
 ```
 w+=xx uu+=yy vv+=zz r=w-tu j=uu-uv v=vv-vt ej+=(ii++%3)>1 :r=ss gotox
 ```
