@@ -1,0 +1,8 @@
+// https://github.com/faultstarbase/SimpleISANOdometer
+
+:Odometer="\n\n"+:LOdo+" KM\n\nTrip:\n\n"+:TOdo+" KM"
+
+
+:LOdo=:LOdo+(:r/1000) :TOdo=:TOdo+(:r/1000) goto :TripOdoRes*2
+
+:TOdo=0 goto3
