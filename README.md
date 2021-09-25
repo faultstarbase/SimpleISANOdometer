@@ -41,3 +41,8 @@ The lifetime odometer cannot be reset without additions to this setup.
 The `TripOdoRes` button, if held momentarily, will reset the trip odometer to zero.
 
 ## Screenshots
+
+![Closeup of controls & code](https://faulty-industries.s3.us-west-1.amazonaws.com/SimpleISANOdometer/3.jpg)
+![Closeup of YOLOL](https://faulty-industries.s3.us-west-1.amazonaws.com/SimpleISANOdometer/1.jpg)
+![Illustrated deployment example](https://faulty-industries.s3.us-west-1.amazonaws.com/SimpleISANOdometer/2.jpg)
+![In-use shot](https://faulty-industries.s3.us-west-1.amazonaws.com/SimpleISANOdometer/4.jpg)
